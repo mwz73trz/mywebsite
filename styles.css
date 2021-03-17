@@ -25,4 +25,19 @@ h2 {
 
 #skills {
   text-align: center;
+  background-color: salmon;
+  margin-left: 75%;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+}
+
+#college {
+  height: 200px;
+  width: 200px;
+}
+
+#codeplatoon {
+  height: 200px;
+  width: 200px;
 }
