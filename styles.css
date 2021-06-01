@@ -1,0 +1,43 @@
+body {
+  background-color: beige;
+}
+
+h2 {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#skills {
+  text-align: center;
+  background-color: salmon;
+  margin-left: 75%;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+}
+
+#college {
+  height: 200px;
+  width: 200px;
+}
+
+#codeplatoon {
+  height: 200px;
+  width: 200px;
+}
