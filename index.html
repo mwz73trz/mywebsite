@@ -1,124 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My Personal Website</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>My Website</title>
 </head>
 <body>
-
-<div class="container">
-  <h2>My Personal Website</h2>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <img src="meandkids.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Michael Zura</h3>
-          <p>Kids and I at Two Lovers Point, Guam</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="wifeandi.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Tiffany and me</h3>
-          <p>Two Lovers Point, Guam</p>
-        </div>
-      </div>
-
-
-      <div class="item">
-        <img src="c5galaxy.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>C-5 Galaxy</h3>
-          <p>Stationed at Dover AFB, DE 1999 to 2003</p>
-        </div>
-      </div>
-
-
-      <div class="item">
-        <img src="c130.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>C-130 Hercules</h3>
-          <p>Stationed at Wichata Falls, TX 2003 to 2007</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="C17.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>C-17 Globemaster</h3>
-          <p>Stationed at Charleston AFB, SC 2007 to 2016</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="shindand.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Air Advisor</h3>
-          <p>Stationed at Shindand AB, Afghanistan 2013 to 2014</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="andersen.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Production Superintendent</h3>
-          <p>Stationed at Andersen AFB, Guam 2016 to 2020</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="scottafb.jpg" alt="..." style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Logistics Readiness Controller</h3>
-          <p>Stationed at Scott AFB, IL 2020 to 2021</p>
-        </div>
-      </div>  
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  <div class="nav-container">
+    <nav class="nav flex-column" id="nav-items">
+      <img class="headshot" src="pictures/headshot.jpg" alt="Me">
+      <br>
+      <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+      <br>
+      <a class="nav-link" href="#education">Education</a>
+      <br>
+      <a class="nav-link" href="#priorwork">Prior Work</a>
+      <br>
+      <a class="nav-link" href="#skills">Skills</a>
+      <br>
+      <a class="nav-link" href="#projects">Projects</a>
+      <br>
+      <a class="nav-link" href="#contact">Contact Me</a>
+    </nav>
   </div>
-</div>
-
-<div class="container">
-  <h2>About Me</h2>
-  <p>Education and Skills:</p>
-  
-  <div class="row">
-    <div class="column">
-      <img id="college" src="amu.jpg" alt="..." style="width:100%">
+  <div class="main-body">
+    <div class="content-containers">
+      <div class="me-info">
+        <h1>Michael Zura</h1>
+        <h3>Full Stack Software Engineer</h3>
+        <h4>Greater St. Louis area</h4>
+        <div class="profile-links">
+          <a id="linkedin-image" href="https://www.linkedin.com/in/michael-zura/">
+            <img src="pictures/linkedin.svg" alt="LinkedIn Profile">
+          </a>
+          <a href="https://github.com/mwz73trz">
+            <img src="pictures/github.svg" alt="Git Hub Profile">
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="column">
-      <img id="codeplatoon" src="codeplatoon.jpg" alt="..." style="width:100%">
-    </div>
-    <div class="skills_column">
-      <p id="skills">Python<br>JavaScript<br>Django<br>PostgreSQL<br>React.js</p>
-    </br>
+      <div class="content-containers">
+        <div class="content-headings">
+          <h2 id="about-me">About Me</h2>
+        </div> 
+        <div class="content-body">
+          <p>I am a 22 year Air Force veteran that loves to troubleshoot and solve problems.  I began my Air Force career as a crew chief at Dover AFB, DE, working on C-5 Galaxy aircraft.  I then switch gears to teaching C-130 Hercules maintenance at Wichita Falls, TX followed by an assignment at Charleston AFB, SC, working on C-17 Globe Master aircraft.  While stationed at Charleston I began a bachelors degree in Information Technology at American Military University learning software programming in C#, OOP, SQL, and a little Java.  From Charleston I shipped off to Andersen AFB, Guam, where I served as a production superintendent.  While at Guam I started my masters degree in IT/Enterprise Software Development.  Writing and researching software development life cycle topics and program management.  My final station, before retirement took me to where I am now, Scott AFB, IL, where I was a logistics readiness controller and finished my masters degree.  Just recently I completed the 14 week bootcamp at Code Platoon, learning Python, JavaScript, Django, React, PostgreSQL, UnitTest, Jest, Git, and completed the Agile SAFe 5 certification.
+          <p>Besides enjoying to code and solve problems, I spend time with my wife, two children, and two dogs.  My daughter keeps us busy with track and cross country, while my son is in soccer, baseball, basketball, and track.  I love sports to include baseball, football, hockey, and NASCAR.</p>
+          </p>
+        </div>
+      </div>
+      <div class="content-containers">
+        <div class="content-headings">
+          <h2 id="education">Education</h2>
+        </div>
+        <div class="content-body">
+          <div class="icons">
+            <img class="education-images" src="pictures/education/codeplatoon.png" alt="code platoon" title="Code Platoon">
+            <h4>Code Platoon</h4>
+          </div>
+          <p>Feb 2021 to May 2021--14 week full stack software engineering bootcamp learning Python, Javascript, Django, React, PostgreSQL, GitHub, Git, UnitTest, Jest, and OOP.</p>
+          <div class="icons">
+            <img class="education-images" src="pictures/education/college.png" alt="amu" title="American Military University">
+            <h4>American Military University</h4>
+          </div>
+          <p>Oct 2017 to Feb 2021--Masters degree in Information Technology with concentration in Enterprise Software Development</p>
+          <div class="icons">
+            <img class="education-images" src="pictures/education/college.png" alt="amu" title="American Military University">
+            <h4>American Military University</h4>
+          </div>
+          <p>Apr 2008 to Nov 2012--Bachelors degree in Information Technology</p>
+        </div>
+      </div>
+      <div class="content-containers">
+        <div class="content-headings">
+          <h2 id="priorwork">Prior Work</h2>
+        </div>
+        <div class="content-body">
+          <div class="icons">
+            <img class="work-images" src="pictures/priorwork/airforce.jpg" alt="air force" title="U.S. Air Force">
+            <h4>United States Air Force</h4>
+          </div>
+          <p>Feb 2020 to Present--Scott AFB, IL--Logistics Readiness Controller</p>
+          <p>Feb 2016 to Feb 2020--Andersen AFB, GU--Production Superintendent</p>
+          <p>Jan 2013 to Feb 2016--Charleston AFB, SC--Home Station Check Dock Chief</p>
+          <p>Jan 2012 to Jan 2013--Shindand AB, Afghanistan--Air Advisor</p>
+          <p>Aug 2007 to Jan 2012--Charleston AFB, SC--Security Manager, Deployment Manager, Fitness Manager, Flight Training Monitor, Aero Repair and Reclamation, C-17 Maintenance Technician</p>
+          <p>Aug 2003 to Aug 2007--Sheppard AFB, TX--C-130 Maintenance Instructor</p>
+          <p>Jan 1999 to Aug 2003--Dover AFB, DE--Flying Crew Chief and C-5 Maintenance Technician</p>
+        </div>
+      </div>
+      <div class="content-containers">
+        <div class="content-headings">
+          <h2 id="skills">Skills</h2>
+        </div>
+        <div class="content-body">
+          <h4>Languages/Frameworks</h4>
+          <br>
+          <div class="skills-images-container">
+            <img class="skills-images" id="python" src="pictures/skills/python.png" alt="python" title="Python">
+            <img class="skills-images" id="javascript" src="pictures/skills/javascript.png" alt="javascript" title="JavaScript">
+            <img class="skills-images" id="csharp" src="pictures/skills/csharp.png" alt="c#" title="C#">
+            <img class="skills-images" id="django" src="pictures/skills/django.png" alt="django" title="Django">
+            <img class="skills-images" id="react" src="pictures/skills/react.png" alt="react" title="React">
+            <img class="skills-images" src="pictures/skills/postgresql.png" alt="postgresql" title="PostgreSQL">
+          </div>
+          <br>
+          <h4>Tools</h4>
+          <br>
+          <div class="skills-images-container">
+            <img class="skills-images" id="github" src="pictures/skills/GitHub.png" alt="github" title="GitHub">
+            <img class="skills-images" id="git" src="pictures/skills/Git.png" alt="git" title="Git">
+            <img class="skills-images" src="pictures/skills/agile.png" alt="agile-safe5-cert" title="Agile SAFe 5 Certified">
+          </div>
+        </div>
+      </div>
+      <div class="content-containers">
+        <div class="content-headings">
+          <h2 id="projects">Projects</h2>
+        </div>
+        <div class="content-body">
+          <h4>Major League Baseball App</h4>
+          <p>My personal final project in Code Platoon, utilized Django, PostgreSQL, and Bootstrap.  User authentication, MLB Data API and News API.  Users could enter favorite players and search for their information in 3rd party MLB Data API as well as relevant news articles using News API.</p>
+          <a href="https://github.com/mwz73trz/final_project">Final Project Repo</a>
+          | |
+          <a href=" https://final-project-mlb-app.herokuapp.com/">Heroku Deployment</a>
+          <br>
+          <br>
+          <h4>Livable App</h4>
+          <p>My final group project at Code Platoon was a match making property app.  We worked in a team of four utilizing Git, Git Hub, Django, React, PostgreSQL, JWT, and the following 3rd party APIs: Google Maps/Places, ATTOM, Open Trip Map, and School Digger.  A user entered a property address and received a score based off of preferences entered according to distance from property in the areas of work, entertainment, and other interests.</p>
+          <a href="https://www.youtube.com/watch?v=ULX2X4kymmc">Livable App Demo</a>
+        </div>
+      </div>
+      <div class="content-containers">
+        <div class="content-headings">
+          <h2 id="contact">Contact Me</h2>
+        </div>
+        <div class="content-body">
+          <p><h4>Email: michaelzura@bellsouth.net</h4></p>
+          <p></p>
+        </div>
+      </div>
   </div>
-</br>
-</pid="skills">
 </body>
 </html>

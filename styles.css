@@ -1,43 +1,116 @@
-body {
+.nav-container {
+  background-color:lightblue;
+  margin-right: 90%;
+  position: fixed;
+  height: 100%;
+}
+
+#nav-items {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 70%;
+  width: 70%;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25%;
+}
+
+.content-containers {
   background-color: beige;
+  margin-left: 11%;
+  margin-right: 11%;
+  border-style: solid;
+  border-color: lightblue;
+  margin-top: 5px;
 }
 
-h2 {
+.profile-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5px;
+  
+}
+
+#linkedin-image {
+  padding-right: 3%;
+}
+
+.me-info {
+  text-align: center;
+  color: lightblue;
+}
+
+.content-headings {
+  color: lightblue;
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
+.content-body {
+  text-indent: 30px;
+  padding: 15px;
+  font-weight: bold;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.skills-images {
+  height: 50px;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.skills-images-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
 }
 
-#skills {
-  text-align: center;
-  background-color: salmon;
-  margin-left: 75%;
-  height: 200px;
-  width: 200px;
-  padding: 50px;
+#python {
+  padding-right: 30px;
 }
 
-#college {
-  height: 200px;
-  width: 200px;
+#javascript {
+  padding-right: 30px;
 }
 
-#codeplatoon {
-  height: 200px;
-  width: 200px;
+#csharp {
+  padding-right: 30px;
+}
+
+#django {
+  padding-right: 30px;
+}
+
+#react {
+  padding-right: 30px;
+}
+
+#github {
+  padding-right: 30px;
+}
+
+#git {
+  padding-right: 30px;
+}
+
+.education-images {
+  height: 30px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.work-images {
+  height: 30px;
 }
